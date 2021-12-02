@@ -8,7 +8,7 @@
 const getQueryString = (query, key) => {
   const queryString = query.split('?');
 
-  if (queryString.length < 2) {
+  if (query[0] !== '?' || queryString.length < 2) {
     return '';
   }
 
@@ -27,4 +27,4 @@ const getQueryString = (query, key) => {
   return '';
 };
 
-export default getQueryString;
+module.exports = getQueryString;
