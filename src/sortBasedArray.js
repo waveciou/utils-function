@@ -1,8 +1,8 @@
 /**
   * Sort array based another array's id.
-  * @param { [{ id: number }] } Sorted array.
-  * @param { [ number ] } Array that sorting rules.
-  * @returns { [{ id: number }] }
+  * @param { [{ id: string }] } Sorted array.
+  * @param { [ string ] } Array that sorting rules.
+  * @returns { [{ id: string }] }
   */
 
 const sortBasedArray = (dataArray, ruleArray) => {
